@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;;
+}
+/* navigation */
+nav {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 10px;
+}
+
+.navigation{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+.bar_icon{
+    font-size: 32px;
+}
+
+/* hero section */
+
+.hero{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.hero_image{
+    display: flex;
+    justify-content: center;
+}
+.hero_image img {
+    max-width: 500px;
+
+}
+.tag  button{
+    background-color: rgb(44, 203, 44);
+    padding: 5px 10px;
+    color: white;
+    border:rgb(44, 203, 44) ;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.tag button:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+
+h1{
+    font-size: 50px;
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.explore_btn{
+    padding: 10px 10px;
+    background-color: #ffcc00;
+    border: #ffcc00;
+    margin-top: 10px;
+}
+
+.explore_btn:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
+.hero_content p {
+    font-size: 15px
+}
+
+.features{
+    display: flex;
+    margin-top: 100px;
+}
+
